@@ -8,7 +8,7 @@ public class Program
         var startTime = DateTime.Now;
         var bdg = new BifurcationDiagramGenerator(
             "C:\\Temp\\BifurcationDiagram.png",
-            imageSize: 5000
+            imageSize: 1000
             );
         await bdg.RenderBifurcationDiagram();
         var endTime = DateTime.Now;
